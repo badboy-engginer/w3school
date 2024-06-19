@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backdrop Filter</title>
+    <style>
+        div.container {
+            background-image: url(../images/midi.jpg);
+            width: 400px;
+            height: 400px;
+            /* ini properti display */
+            display: flex;
+            /* ini properti align items */
+            align-items: center;
+            /* ini properti justify */
+            justify-content: center;
+            /* ini properti background size */
+            background-size: cover;
+
+        }
+
+        div.transbox {
+            width: 100px;
+            height: 100px;
+            color: rgb(0, 0, 0);
+            background-color: rgba(164, 164, 164, 0.4);
+            /* ini properti padding */
+            padding: 5px;
+            /* ini properti box-sizing */
+            box-sizing: border-box;
+            /* ini properti text-align */
+            text-align: left;
+            /* ini properti text-justify */
+            text-justify: center;
+
+            /* ini properti backdrop-filter */
+            /* macam backdrop filter*/
+            /* blur, brightness, contrast, grayscale(%), hue-rotate(180deg), invert(80%), opacity(50%), saturate(6), sepia(100%) */
+            backdrop-filter: blur(2px);
+            -webkit-backdrop-filter: blur(2px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="transbox">
+            <p>Ini adalah backdrop Filter</p>
+        </div>
+    </div>
+</body>
+
+</html>

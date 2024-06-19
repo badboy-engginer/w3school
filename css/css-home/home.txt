@@ -1,0 +1,3 @@
+Singkatan Css adalah Casscading stylesheet.
+Kegunaan dari Css adalah Untuk Menata atau memberi gaya pada kerangka Html.
+

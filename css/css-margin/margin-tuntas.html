@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Margin</title>
+    <style>
+        /* .container {
+            display: flex;
+            margin: 30px;
+        } */
+
+        div {
+            width: 200px;
+            height: 100px;
+            background-color: antiquewhite;
+            /* Margin sisi Induvidu */
+            /* margin-top */
+            /* margin-right */
+            /* margin-bottom */
+            /* margin-left */
+            /* margin: 10px 20px 10px 10px => mengatur atas10px kanan20px bawah10px dan kiri10px */
+            /* margin: 12px 50px 4px mengatur atas12px kanan50px-kiri50px dan bawah4px */
+            /* margin: 12px 70px => mengatur atas dan bawah bernilai 12px dan kanan dan kiri bernilai 70px  */
+            /* margin: 12px 14px 41px 31px */
+            /* margin-top: 10px; */
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+
+        .test {
+            width: 700px;
+            height: 900px;
+            background-color: rgb(106, 105, 105);
+            /* position: absolute; */
+            margin: auto;
+            /* display: flex; */
+        }
+
+        /* margin-block */
+        .test div {
+            background-color: rgb(255, 0, 0);
+            width: 100px;
+            height: 100px;
+            /* margin-block: 40px; */
+            /* margin-inline: 40px; */
+            /* margin-block-start: 40px; */
+            /* margin-block-end: 40px; */
+            /* margin-inline-start: 40px; */
+            /* margin-inline-end: 40px; */
+            /* margin-inline: 40px; */
+            border: 4px solid black;
+            /* margin: auto; */
+            /* position: relative; */
+        }
+
+        .test p {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container"> -->
+    <div>DIV 1</div>
+    <p>Batas</p>
+    <div>DIV 2</div>
+    <p>Batas</p>
+    <div>DIV 3</div>
+    <p>Batas</p>
+    <!-- </div> -->
+    <!--  -->
+    <div style="margin:50px; width: 700px; height: 500px;">
+        <div style="background-color: black; margin: auto;">
+            <!-- margin auto membuat ketegasan posisi bisa ke kanan kekiri dan ketetengah secara horintal -->
+
+        </div>
+    </div>
+
+    <div class="test">
+        <p>Test</p>
+        <div></div>
+        <p>Test</p>
+        <div></div>
+        <p>Test</p>
+        <div></div>
+        <p>Test</p>
+    </div>
+</body>
+
+
+</html>

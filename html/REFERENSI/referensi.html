@@ -1,0 +1,80 @@
+<!-- The code you provided is an HTML document structure. Let me break it down for you: -->
+<!DOCTYPE html>
+<html lang="en">
+<!--  
+      Bagian `<head>` dalam dokumen HTML berisi informasi meta tentang dokumen itu sendiri, misalnya
+        seperti pengkodean karakter, pengaturan viewport untuk desain responsif, dan judul dokumen.
+        Inilah yang dilakukan setiap baris di bagian `<head>`: -->
+
+<!-- `内のコードは<head>HTML文書の`セクションは、文書自体に関するメタ情報を提供する役割を果たします。`セクションの各行の内容は次のとおりです。<head> ` セクションは以下を実行します: -->
+
+<!-- &#39;<head> Bir HTML belgesindeki ` bölümü, belgenin kendisiyle ilgili meta bilgileri içerir. &#39;
+içindeki her satırı parçalayalım<head> ` sağladığınız bölüm: -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 提供されているコード スニペットは、ユーザーがさまざまな情報を入力できる HTML フォームです。フォームの各部分の動作の詳細は次のとおりです。 -->
+
+  <form action="get">
+    <label for="nama">Nama&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+    <input type="text" id="nama" name="nama" placeholder="masukan nama" /><br /><br />
+
+    <label for="nama_panggilan">Nama Panggilan : </label>
+    <input type="text" id="nama_panggilan" name="nama_panggilan" placeholder="masukan nama" /><br /><br />
+
+    <label for="kata_sandi">Kata Sandi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+    <input type="password" id="kata_sandi" name="kata_sandi" placeholder="masukan kata sandi" /><br /><br />
+
+    <label for="Pilih_gender">Pilih Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+
+    <input type="radio" id="laki_laki" name="jenis_kelamin" value="laki_laki" />
+    <label for="laki_laki">Laki-laki</label>
+
+    <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan" />
+    <label for="perempuan">Perempuan</label><br /><br />
+
+    <label for="masukan_hobi">Masukan Hobi&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+    <select name="hobi" id="hobi" name="masukan_hobi">
+      <option value="basketball">basketball</option>
+      <option value="volleyball">volleyball</option>
+      <option value="futsal">futsal</option>
+      <option value="baseball">baseball</option>
+      <option value="sepak bola">sepak bola</option>
+      <option value="badminton">badminton</option>
+      <option value="tenis meja">tenis meja</option>
+    </select><br /><br />
+
+    <fieldset>
+      <legend>Biodata</legend>
+      <label for="nama">Nama&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+      <input type="text" id="nama" name="nama" placeholder="masukan nama" /><br /><br />
+
+      <label for="kata_sandi">Kata Sandi &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </label>
+      <input type="password" id="kata_sandi" name="kata_sandi" placeholder="masukan kata sandi" /><br /><br />
+    </fieldset><br /><br />
+
+    <label for="pilihan_otomatis">Pilihan Otomatis </label>
+    <input list="makanan" id="pilihan_otomatis" />
+    <datalist id="makanan" name="makanan">
+      <option value="nasi goreng">nasi goreng</option>
+      <option value="soto">soto</option>
+      <option value="sate">sate</option>
+      <option value="nasi padang">nasi padang</option>
+    </datalist>
+    </option><br /><br />
+
+    <label for="tetapkan_waktu">Tetapkan t/b/t &nbsp;&nbsp;&nbsp;:</label>
+    <input type="datetime-local" id="tetapkan_waktu" name="tetapkan_waktu" /><br /><br />
+
+    <button type="button" onclick="confirm('apakah ingin close?')">Click</button>
+  </form>
+</body>
+
+</html>

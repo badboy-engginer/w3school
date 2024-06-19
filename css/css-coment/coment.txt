@@ -1,0 +1,2 @@
+<-- Ini adalah tag commentar -->
+<-- komentar berguna untuk memberi definisi di setiap kode project -->

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Combinator</title>
+    <style>
+        div+p {
+            color: red;
+        }
+
+        div>p {
+            color: blue;
+        }
+
+        div~p {
+            color: green;
+        }
+
+        div p {
+            color: rgb(255, 242, 0);
+        }
+
+        div>section p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- css combinator -->
+    <!-- + -->
+    <!-- > -->
+    <!-- ~ -->
+    <!-- space -->
+    <div>
+        <p>Paragraph 1</p>
+    </div>
+
+
+    <p>Paragraph 2</p>
+    <p>Paragraph 2end</p>
+
+    <div>
+        <p>Paragraph 3</p>
+        <section>
+            <p>Paragraph 4</p>
+        </section>
+        <p>Paragraph 5</p>
+    </div>
+    <p>Paragraph 6</p>
+
+
+</body>
+
+</html>

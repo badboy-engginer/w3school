@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table style="border: 1px solid black;">
+        <colgroup>
+            <col span="2" style="background-color: pink;">
+            <col span="3" style="background-color: rgb(245, 0, 41);">
+
+        </colgroup>
+        <thead>
+            <tr>
+                <th>ID Costumer</th>
+                <th>Pelanggan</th>
+                <th>No. Resi</th>
+                <th>Keterangan</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">8980</td>
+                <td>Miguel</td>
+                <td>123456789</td>
+                <td>Sukses</td>
+            </tr>
+
+            <tr>
+                <!-- <td>9278</td> -->
+                <td colspan="2">Jasmine</td>
+                <td>No Valid</td>
+            </tr>
+
+            <tr>
+                <td>8980</td>
+                <td>Nina</td>
+                <td>123456789</td>
+                <td>Sukses</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3"></td>
+                <td>Jumblah</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+
+</html>

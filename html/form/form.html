@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <label for="nama">Nama</label>
+    <input type="text" name="nama" id="nama"><br /><br />
+
+    <label for="password">password</label>
+    <input type="password" name="password" id="password"><br /><br />
+
+    <label for="kendaraan">Masukan kendaraan</label>
+    <select name="kendaraan" id="kendaraan">
+        <option value="lamborgini">lamborgini</option>
+        <option value="vespa">vespa</option>
+        <option value="Toyota" selected>Toyota</option>
+        <option value="Masda">Masda</option>
+    </select><br /><br />
+
+    <textarea name="textarea" id="" cols="30" rows="10"></textarea><br />
+
+    <button onclick="alert('hello Baby')">Click me</button>
+
+    <fieldset>
+        <legend>Biodata</legend>
+        <label for="nama">Nama</label>
+        <input type="text" name="nama" id="nama"><br /><br />
+
+        <label for="password">password</label>
+        <input type="password" id="password">
+
+        <button type="submit">Clik me</button>
+    </fieldset><br /><br />
+
+    <input list="browser">
+    <datalist id="browser">
+        <option value="crome">
+        <option value="safari">
+        <option value="mozilla">
+    </datalist>
+    <button type="submit" onclick="alert('Terima kasih data anda sudah masuk di hackers')">Click</button><br /><br />
+
+    <input list="motor">
+    <datalist id="motor">
+        <option value="supra">
+        <option value="vespa">
+    </datalist>
+    <button type="submit" onclick="document.location= 'about.html'">Click me</button><br /><br />
+
+    <input type="button" value="submit"><br />
+
+
+    <label for="laki-laki">laki-laki</label>
+    <input type="radio" id="laki" name="jeniskelamin" value="laki-laki">
+
+    <label for="perempuan">perempuan</label>
+    <input type="radio" id="perempuan" name="jeniskelamin" value="perempuan"><br />
+
+
+    <!-- * input checkbox -->
+    <h1>Favorite</h1>
+    <label for="html">HTML</label>
+    <input type="checkbox" id="html" name="html">
+    <label for="css">CSS</label>
+    <input type="checkbox" id="css" name="css">
+    <label for="Javascript">Javascript</label>
+    <input type="checkbox" id="javascript" name="javascript">
+    <!-- * input checkbox -->
+
+    <!-- * button -->
+    <button type="button" onclick="confirm('apakah ingin close?')">Click saya!</button>
+    <!-- * button -->
+
+    <!-- * input color  -->
+    <label for="color">warna</label>
+    <input type="color" id="warna" name="warna"><br /><br />
+    <!-- * input color -->
+
+    <!-- * input date -->
+    <label for="tanggal">My birthday</label>
+    <input type="date" id="tanggal" name="tangal">
+    <!-- * input date -->
+
+    <!-- * input datetime-local -->
+    <label for="waktu">waktu</label>
+    <input type="datetime-local" id="waktu" name="waktu"><br /><br />
+    <!-- * input datetime-local  -->
+
+    <!-- * input email  -->
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" autocomplete><br /><br />
+    <button type="submit">Click me</button><br />
+    <!-- * input email -->
+
+    <!-- * input file -->
+    <label for="penyimpanan">Choose</label>
+    <input type="file" id="file" name="file">
+    <!-- * input file -->
+
+    <!--  * input image-->
+    <label for="image">image</label>
+    <input type="image" id="image" nama="image"><br /><br />
+    <!-- * input image -->
+
+    <!-- * input search  -->
+    <label for="cari">Google</label>
+    <input type="search" id="cari" name="cari"><br /><br />
+    <!-- * input search -->
+
+    <!-- * input tel -->
+    <label for="telepon">Telepon</label>
+    <input type="tel" id="telepon" name="telefon"><br /><br />
+    <!-- * input tel -->
+
+    <!-- * input time  -->
+    <label for="waktu">Waktu</label>
+    <input type="time" id="time" name="waktu"><br /><br />
+    <!--  * input time -->
+
+    <!-- * input url -->
+    <label for="link">Link</label>
+    <input type="url" id="link" name="link"><br /><br />
+    <!-- * input url -->
+
+    <!-- * input week  -->
+    <label for="akhirpekan">Akhir Pekan</label>
+    <input type="week" id="akhirpekan" name="akhirpekan"><br /><br />
+    <!-- * input week  -->
+
+    <!-- * textarea -->
+    <label for="komentar">Komentar</label>
+    <textarea name="komentar" id="komentar" cols="30" rows="10"
+        placeholder="masukan komentar anda"></textarea><br /><br />
+    <!-- * textarea -->
+
+    <!-- * min max -->
+    <label for="quantity">Jumblah</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="9">
+</body>
+
+</html>

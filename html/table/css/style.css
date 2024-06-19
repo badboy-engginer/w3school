@@ -1,0 +1,32 @@
+
+/* style css */
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* padding: 5px; */
+    /* width: 100%; */
+    text-align: left;
+}
+
+/* membuat border disekitar table */
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* membuat border disekitar table */
+
+table {
+    /* border: 1px solid white; */
+    /* width: 100%; */
+    margin: 5px;
+
+
+}
+
+tr:nth-child(even) {
+    background-color: rgb(221, 253, 255);
+}

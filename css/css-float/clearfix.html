@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClearFix Css</title>
+    <style>
+        div {
+            border: 1px solid black;
+            padding: 20px;
+            box-sizing: border-box;
+            margin-block-start: 10px;
+            /* overflow: auto; */
+        }
+
+        div img {
+            width: 200px;
+            height: 200px;
+            float: right;
+        }
+
+        /* This will clear the float */
+     div::after {
+        content: "";
+        clear: both;
+        display: table;
+     }
+
+        .clearfix {
+            border: 1px solid black;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .clearfix img {
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="../images/ebin.jpg" alt="">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta eveniet facilis veritatis quas, reiciendis
+        commodi. Itaque, adipisci quis? Eos perspiciatis eum inventore debitis rem obcaecati iste earum voluptatem quae
+        quam!
+    </div>
+
+    <div class="clearfix">
+        <img src="../images/ebin.jpg" alt="">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores iure obcaecati voluptate voluptas, nemo qui
+        cupiditate magnam, quos sed totam facilis, mollitia pariatur? Praesentium rerum placeat tempora magni sunt
+        necessitatibus?
+    </div>
+</body>
+
+</html>

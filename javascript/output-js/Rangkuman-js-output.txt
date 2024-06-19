@@ -1,0 +1,7 @@
+
+JavaScript dapat "menampilkan" data dengan berbagai cara:
+
+Menulis ke dalam elemen HTML, menggunakan innerHTML.
+Menulis ke dalam output HTML menggunakan document.write().
+Menulis ke dalam kotak peringatan, menggunakan window.alert().
+Menulis ke konsol browser, menggunakan console.log().

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Border Image</title>
+    <style>
+        .demo {
+            min-height: 500px;
+            background-size: cover;
+            background-image: url(../images/anaama.jpg);
+            background-color: antiquewhite;
+            border: 50px solid transparent;
+            border-image: url(../images/border.jpg) 30% stretch;
+            /* border-image: url(../images/border.jpg) 30% round; */
+            /* border-image-outset: 100px */
+            /* border-image-repeat: round; */
+            /* border-image-repeat: stretch; */
+            /* border-image-repeat: repeat; */
+            border-image-slice: 20;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>syntax css</title>
+    <style>
+        /* Ini adalah selector universal/umum */
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Contoh Selector Css ID */
+        /* Id ini harus mempunyai satu saja, tidak di bolehkan nama yang sama */
+        #demo {
+            color: red;
+        }
+
+        /* Contoh Selector Css Class */
+        .text {
+            color: blue;
+        }
+
+        /* Gabungan antara Element dan class Css ini di kombinasi atau untuk lebih spesifik*/
+        h4.text {
+            color: green;
+        }
+
+        /* style class start  kombinasi yang spesifik*/
+        p.start {
+            background-color: black;
+            color: white;
+        }
+
+        /* gabungin selector h1, h2, dan p */
+        h1,
+        h2,
+        p {
+            text-align: center;
+            color: hotpink;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- * h1 sebagai Selector, Color sebagai Property, Red sebagai Value -->
+    <!-- * Dari color sampai font-size itu dikatakan sebagai Pendeklarasian -->
+    <h1 style="color: rgb(247, 7, 7); font-size: 12px;">This Syntax Css</h1>
+
+    <!-- * Contoh Css Class Selector -->
+    <!-- * Css Class Selector menggunakan titik sebelum nama class yang akan dituju -->
+    <p class="text">Hallo Miguel Cleve</p>
+
+    <!-- * Element h5 bergabung dengan class html di kombinasi kan hal ini juga berlaku/diperbolehkan -->
+    <!-- * kita akan beri style pada h5 -->
+    <h5 class="text">Hallo</h5>
+    <h4 class="text">Miguel</h4>
+
+    <!-- * Element juga dapat merujuk ke lebih dari satu kelas css -->
+    <!-- * contoh di bawah ini -->
+    <p class="center">Ini Class Center</p>
+    <p class="center start">Ini Class Center start</p>
+
+    <!-- * bisa juga kita grouping selector artinya menggabungkan beberapa selector -->
+    <!-- * h1, h2, p -->
+    <h1>Crome</h1>
+    <h2>Web browser Populer</h2>
+    <p>Teknologi bertambah pesat</p>
+
+    <!-- * selector Css Menggunakan ID -->
+    <h1 id="demo">H1 ini di beri gaya dengan menggunakan css ID</h1>
+    <h1 id="demo">H1 ini di beri gaya dengan menggunakan css ID</h1>
+</body>
+
+</html>

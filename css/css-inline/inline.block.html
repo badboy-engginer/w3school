@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Block Css</title>
+    <style>
+        /* display block membuat jeda baris baru ke bawah */
+        /* display inline membuat jeda baris baru ke kanan */
+        /* display inline-block membuat jeda baris baru ke kanan dan bisa di atur dimensinya */
+        .s3 {
+            width: 200px;
+            height: 200px;
+            background-color: antiquewhite;
+        }
+
+        .s2 {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(210, 46, 0);
+            display: inline-block;
+        }
+
+        .s1 {
+            width: 200px;
+            height: 200px;
+            background-color: rgb(188, 173, 8);
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="s3"></div>
+    <span class="s1">Hallo</span>
+    <span class="s2">Hallo</span>
+</body>
+
+</html>

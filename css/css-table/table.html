@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Table</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th {
+            color: white;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            padding-inline-start: 10px;
+            padding-block: 20px;
+
+        }
+
+        .cari>input {
+            padding-block: 5px;
+        }
+
+        .cari>label {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .pengguna {
+            width: 50%;
+            background-color: aliceblue;
+            margin-block-end: 10px;
+            padding-block: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-inline: 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+
+        .pengguna button {
+            width: 60px;
+            height: 35px;
+        }
+
+        .pengguna div>.p1 {
+            background-color: green;
+            color: white;
+            border: 1px solid rgb(1, 148, 1);
+            border-radius: 5px;
+        }
+
+        .pengguna div>.p2 {
+            background-color: rgb(173, 167, 4);
+            color: white;
+            border: 1px solid rgb(156, 179, 3);
+            border-radius: 5px;
+        }
+
+        .pengguna div>.p3 {
+            background-color: rgb(255, 0, 0);
+            color: white;
+            border: 1px solid rgb(203, 2, 2);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pengguna">
+        <div>
+            <button class="p1">Create</button>
+            <button class="p2">Update</button>
+            <button class="p3">Delete</button>
+        </div>
+        <div class="cari">
+            <label for="search">Cari</label>
+            <input type="search" id="search" placeholder="Cari Company">
+        </div>
+    </div>
+    <table>
+        <thead style="background-color: rgb(1, 60, 1);">
+            <tr>
+                <th>Company</th>
+                <th colspan="2">Contact</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>PT. Antham Kendari</td>
+                <td>Arby Subang</td>
+                <td>California</td>
+            </tr>
+            <tr>
+                <td>PT. Beautiful Corp</td>
+                <td>Nikken Andika</td>
+                <td>Kendari</td>
+            </tr>
+            <tr>
+                <td>PT. Nusa Persada</td>
+                <td>Jaiful Anggora</td>
+                <td>Boston</td>
+            </tr>
+            <tr>
+                <td>PT. Kilang Minyak Indonesia</td>
+                <td>Dimas Satriawan</td>
+                <td>Jerman</td>
+            </tr>
+            <tr>
+                <td>PT. Agustinus XII</td>
+                <td>Paul Prakoso</td>
+                <td>Sweden</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
