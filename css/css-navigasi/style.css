@@ -1,0 +1,229 @@
+/* import font  by cdnfonts */
+@import url('https://fonts.cdnfonts.com/css/sofia-sans');
+@import url('https://fonts.cdnfonts.com/css/open-sauce-one');
+@import url('https://fonts.cdnfonts.com/css/anek-bangla');
+
+:root {
+    /* root color & font-family mystyle start */
+    --bg-primary: #FEFAF6; /* This Default */
+    --bg-1: #EADBC8;  /* This Default */
+    --bg-2: #DAC0A3;  /* This Default */
+    --bg-3: #102C57;
+    --bg-light: #ffffff;
+    --bg-dark: #000000;
+    --color-primary: #e69200;  /* This Default */
+    --color-judul-light: #ffffff;
+    --color-judul-dark: #000000;
+    --color-article-light: #ffffff;
+    --color-article-dark: #000000;
+    --color-subjudul-1: #4b4b4b;  /* This Default */
+    --color-subjudul-2: #959595;  /* This Default */
+    
+    --font-judul: 'Sofia Sans', sans-serif; /* This Default */
+    --font-subjudul: 'Open Sauce One', sans-serif; /* This Default */
+    --font-article: 'Anek Bangla', sans-serif;  /* This Default */
+    /* root color & font-family mystyle end */
+    
+    
+    
+    /* root ukuran font mystyle start */
+    --font-primary-size: 5rem;
+    --font-judul-size: 3.5rem;
+    --font-article-size: 1.3rem;
+    --font-subjudul-size: 1.4rem;
+    
+    /* ukuran fonts untuk semua Website */
+    --font-thin: 1rem;
+    --font-sm: 1.2rem;
+    --font-md: 1.4rem;
+    --font-lg: 2.1rem;
+    --font-xl: 2.7rem;
+    --font-xxl: 3rem;
+    --font-xxxl: 4rem;
+    /* root ukuran font mystyle end */  
+    
+    /* root font-weight start*/
+    --fw-thin: 100;
+    --fw-sm: 300;
+    --fw-md: 400;
+    --fw-lg: 700;
+    
+    /* root line-height start */
+    --lh-thin: 1rem;
+    --lh-sm: 1.5rem;
+    --lh-md: 2rem;
+    --lh-lg: 3rem;
+    --lh-xl: 4rem;
+    /* root line-height end */
+    
+    
+    /* root btn mystyle start*/
+    --btn-primary: #5bc0de;
+    --btn-light: #ffffff;
+    --btn-dark: #000000;
+    --btn-danger: #ff0000;
+    --btn-warning: #f0ad4e;
+    --btn-success: #0dc507;
+    --btn-secondary: #929292;
+    /* root btn mystyle end*/
+    
+    
+    
+    /* root border btn mystyle start */
+    --btnb-light: #e2e2e2;
+    --btnb-dark: #313131;
+    --btnb-danger: #de0202;
+    --btnb-warning: #eea134;
+    --btnb-success: #0aa505;
+    --btnb-primary: #3ab5db;
+    --btnb-secondary: #6b6a6a;
+    /* root border btn mystyle end */
+    
+    
+    
+    /* root margin and padding mystyle start */
+    --br-none: none;
+    --btn-br: 0.2rem;
+    --btn-m: 0.4rem;
+    --btn-p: 0.5rem 0.7rem;
+    /* root margin and padding mystyle end */   
+    
+    
+    
+    /* root border-radius mystyle start*/
+    --br-primary: 50%;
+    --br-secondary: 40%;
+    --br-sm: 0.6rem;
+    --br-md: 1.3rem;
+    --br-lg: 2.5rem;
+    --br-xl: 4.3rem;
+    /* root border-radius mystyle end */
+    
+    
+    /* root padding & margin mystyle */
+    --pm-primary: 7%;
+    --pm-secondary: 2%;
+    --pm-tertiary: 4%;
+    --pm-thin: 0.6rem;
+    --pm-sm: 1.1rem;
+    --pm-md: 1.8rem;
+    --pm-lg: 6rem;
+    --pm-xl: 8rem;
+    --pm-xxl: 10rem;
+    --pm-xxxl: 15rem;
+    /* root padding & margin mystyle end */
+    
+    
+    /* width */
+    --w-100: 100%;
+    --w-90: 90%;
+    --w-80: 80%;
+    --w-70: 70%;
+    --w-60: 60%;
+    --w-50: 50%;
+    --w-40: 40%;
+    --w-30: 30%;
+    --w-20: 20%;
+    --w-10: 10%;
+    --w-15: 15%;
+    
+    /* height */
+    --h-100: 100%;
+    --h: 2000rem;
+    --hvh: 100vh;
+    /* root width & height  mystyle end */
+
+}
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+nav {
+    background-color: var(--bg-3);
+    
+}
+
+ ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: var(--color-judul-light);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background-color: var(--bg-3);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+
+ul li a:hover {
+    background-color: #0aa505;
+}
+
+ul li:hover > ul.dropdown {
+    display: block;
+} */
+
+
+nav {
+    background-color: var(--bg-3);
+    font-family: var(--font-judul);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a{
+    color: var(--color-primary);
+    padding: var(--pm-md);
+    text-decoration: none;
+    display: block;
+    font-size: var(--font-thin);
+}
+
+nav ul li ul.dropdown {
+    position: absolute;
+    display: none;
+}
+
+nav ul li ul.dropdown li {
+    background-color: var(--bg-3);
+    width: 100%;
+}
+
+nav ul li:hover ul.dropdown {
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: var(--color-primary);
+    color: var(--color-judul-light);
+}
